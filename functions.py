@@ -93,29 +93,3 @@ create_hero_profile(
 #     weakness="semicolons",    # **kwargs
 #     coding_level="expert"     # **kwargs
 # )
-
-# ## Quick Reference Guide 📝
-# 1. **Regular Parameters**: Basic required inputs
-#    ```python
-#    def hero(name, power)
-#    ```
-
-# 2. **Keyword Arguments**: Name-value pairs when calling
-#    ```python
-#    hero(name="PyGirl", power="coding")
-#    ```
-
-# 3. **Default Parameters**: Optional with fallback values
-#    ```python
-#    def hero(name, power="coding")
-#    ```
-
-# 4. **Args**: Variable number of positional arguments
-#    ```python
-#    def hero(*powers)  # powers becomes a tuple
-#    ```
-
-# 5. **Kwargs**: Variable number of keyword arguments
-#    ```python
-#    def hero(**traits)  # traits becomes a dictionary
-#    ```
